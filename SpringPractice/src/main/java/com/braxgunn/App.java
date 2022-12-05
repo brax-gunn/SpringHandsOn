@@ -10,7 +10,6 @@ public class App {
 		AnnotationConfigApplicationContext context = 
 				new AnnotationConfigApplicationContext(AppConfig.class);
 		
-		
 		Car myCar = context.getBean("wagonar",Car.class);
 		
 		System.out.println(myCar.modelName());
