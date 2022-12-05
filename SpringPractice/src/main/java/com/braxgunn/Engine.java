@@ -1,8 +1,7 @@
 package com.braxgunn;
 
-import org.springframework.stereotype.Component;
 
-@Component
+
 public interface Engine {
 	
 	String engineName = "";

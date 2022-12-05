@@ -2,9 +2,7 @@ package com.braxgunn;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
 
-@Component("wagonar")
 public class Wagonar implements Car {
 	
 	@Autowired(required=false)
@@ -27,7 +25,7 @@ public class Wagonar implements Car {
 
 
 	public String modelName() {
-		return "Wagonar Classic - CNG" + " | " + engine.getEngineName();
+		return "Wagonar Classic - CNG";
 	}
 
 }

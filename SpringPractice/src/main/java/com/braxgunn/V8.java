@@ -1,8 +1,6 @@
 package com.braxgunn;
 
-import org.springframework.stereotype.Component;
 
-@Component("V8")
 public class V8 implements Engine {
 
 	String engineName = "V8 Engine";
